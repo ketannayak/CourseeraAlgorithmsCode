@@ -1,0 +1,6 @@
+#Mon Jan 26 20:47:19 EST 2015
+eclipse.preferences.version=1
+Connectors.org.eclipse.tm.internal.terminal.telnet.TelnetConnector.Host=localhost
+Connectors.org.eclipse.tm.internal.terminal.telnet.TelnetConnector.Timeout=10
+Connectors.ConnectionType=org.eclipse.tm.internal.terminal.telnet.TelnetConnector
+Connectors.org.eclipse.tm.internal.terminal.telnet.TelnetConnector.NetworkPort=23

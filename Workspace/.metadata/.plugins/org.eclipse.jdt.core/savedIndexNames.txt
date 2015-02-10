@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+E:\Courses\Algorithms\Code\Workspace\.metadata\.plugins\org.eclipse.jdt.core
+2666450434.index
+132620216.index
+78973633.index
