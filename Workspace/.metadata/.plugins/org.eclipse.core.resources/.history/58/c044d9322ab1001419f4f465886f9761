@@ -12,6 +12,8 @@
  *----------------------------------------------------------------*/
 import java.util.Iterator;
 
+import Deque.DoublyLinkedListIterator;
+import Deque.Node;
 
 public class RandomizedQueue<Item> implements Iterable<Item> {
 
@@ -73,10 +75,6 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
 			{
 				
 			}
-		}
-		
-		public static void main(String args[]){
-			
 		}
 		
 	

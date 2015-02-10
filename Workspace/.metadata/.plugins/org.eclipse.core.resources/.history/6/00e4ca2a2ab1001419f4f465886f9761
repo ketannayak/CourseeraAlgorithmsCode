@@ -12,7 +12,6 @@
  *----------------------------------------------------------------*/
 import java.util.Iterator;
 
-
 public class RandomizedQueue<Item> implements Iterable<Item> {
 
 	private int N; //size of the queue
@@ -35,50 +34,11 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
 		return N;
 	}
 
-	//Add an item to the queue
 	public void enqueue(Item item){
 		
 	}
 	
-	//Randomly return and delete an item from the queue
-	public Item dequeue(){
-		
-	}
-	
-	public Item sample(){
-		
-	}
-	
-	//Iterator method to support the iterable interface
-		public Iterator<Item> iterator(){
-			return new RandomizedQueueIterator();	
-		}
-		
-		//The class that implements the iterator class for this ADT
-		private class RandomizedQueueIterator implements Iterator<Item>
-		{
-			
-			//Existence of next is dependent on the current
-			public boolean hasNext(){ 
-				
-			}
-			
-			//Remove method that needs to be a part of the iterator, but throws exception
-			public void remove() { 
-				throw new UnsupportedOperationException("This operation is unsupported");
-			}
-			
-			//Find the next item
-			public Item next()
-			{
-				
-			}
-		}
-		
-		public static void main(String args[]){
-			
-		}
-		
+	public
 	
 	
 }
