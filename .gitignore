@@ -20,6 +20,10 @@ $RECYCLE.BIN/
 #Eclipse folder
 .metadata
 *.metadata
+metadata
+\.metadata/
+**/.metadata
+.metadata/
 
 # =========================
 # Operating System Files
