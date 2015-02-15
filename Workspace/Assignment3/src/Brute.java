@@ -43,10 +43,7 @@ public class Brute {
 								//Print the line segment discovered
 								StdOut.println(pointset[i] +" -> "+ pointset[j] +" -> "+ pointset[k] +" -> "+ pointset[l]);
 								//Draw the line segment 
-								pointset[i].drawTo(pointset[j]);
-								pointset[j].drawTo(pointset[k]);
-								pointset[k].drawTo(pointset[l]);
-								
+								pointset[i].drawTo(pointset[l]);								
 							}	
 						}
 					}		

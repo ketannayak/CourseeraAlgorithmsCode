@@ -35,9 +35,6 @@ public class Fast {
 		//Create an empty array to store the sorted points
 		Point[] referencepointset = new Point[pointset.length];
 		
-		//maintains the endpoint for a line segment that is lexicographically highest
-		Point endpoint = null;
-		
 		// Loop through the points on which we will calculate the slope on
 		for (int i = 0; i < N; i++){
 			
@@ -46,7 +43,7 @@ public class Fast {
 			System.arraycopy(pointset, 0, referencepointset, 0, pointset.length);
 			
 			//sort the referencepointset based on the point p
-			Arrays.sort(referencepointset,i, N, pointset[i].SLOPE_ORDER);
+			Arrays.sort(referencepointset, pointset[i].SLOPE_ORDER);
 			
 			//initialize the previous slope to the slope to itself initially
 			double prev_slope = pointset[i].slopeTo(referencepointset[i]);
@@ -57,7 +54,7 @@ public class Fast {
 			int index2 = 0;
 			
 			//Consider points for which we need to calculate slope
-			for(int j = i+1; j < N; j++){
+			for(int j = 0; j < N; j++){
 				
 				//Calculate the slope for the current point
 				double current_slope = pointset[i].slopeTo(referencepointset[j]);
@@ -67,19 +64,25 @@ public class Fast {
 					index2++;
 				} else {
 					
-					
-					if(referencepointset[index2] != endpoint && index2 - index1 >= 2){
+					if(index2 - index1 >= 2){	
 						
-						endpoint = referencepointset[index2];						
-						
-						StdOut.print(pointset[i]);
-						
-						for(int k = index1; k <= index2; k++)
-							StdOut.print(" -> " + referencepointset[k]);
-						
-						StdOut.print("\n");
-						
-						pointset[i].drawTo(referencepointset[index2]);			
+					 	//We need to print only if the starting point is less than all other points
+					 	boolean isFirst = true;
+					 	
+					 	for(int k = index1; k <= index2; k++)
+					 		if(pointset[i].compareTo(referencepointset[k]) >= 0) isFirst = false;
+					 		
+						if(isFirst){
+							
+							StdOut.print(pointset[i]);
+							
+							for(int k = index1; k <= index2; k++)
+								StdOut.print(" -> " + referencepointset[k]);
+							
+							StdOut.print("\n");
+							
+							pointset[i].drawTo(referencepointset[index2]);
+						}
 					}
 					
 					//Set both the indices to the current point being looked at
@@ -96,18 +99,26 @@ public class Fast {
 			
 			//We need another set of if condition followed by the for loop if the last point looked
 			// at in the previous loop is a part of the collinear set			
-			 if (index2 - index1 >= 2 && referencepointset[index2] != endpoint) {
-	                endpoint = referencepointset[index2];
-	                
-	                StdOut.print(pointset[i]);
-	                
-	                for (int k = index1; k <= index2; k++)
-	                    StdOut.print(" -> " + referencepointset[k]);
-	                    
-	                StdOut.print("\n");
-	                
-	                pointset[i].drawTo(referencepointset[index2]);
+			 if (index2 - index1 >= 2) {
+				 
+				 	
+				 //We need to print only if the starting point is less than all other points
+				 boolean isFirst = true;
+				 for(int k = index1; k <= index2; k++)
+					 if(pointset[i].compareTo(referencepointset[k]) >= 0) isFirst = false;
+				 
+				 if(isFirst){
+					 StdOut.print(pointset[i]);
+					 
+					 for(int k = index1; k <= index2; k++)
+						 StdOut.print(" -> " + referencepointset[k]);
+					 
+					 StdOut.print("\n");
+					 
+					 pointset[i].drawTo(referencepointset[index2]);
+				 }
 	         }
 		}
 	}
 }
+
