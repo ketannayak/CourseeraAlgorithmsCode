@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="26" version="2.0">
+<workbench progressCount="34" version="2.0">
 <workbenchAdvisor/>
 <window height="616" maximized="true" width="1024" x="-18" y="-15">
 <fastViewData fastViewLocation="1024"/>
@@ -23,6 +23,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
@@ -34,24 +35,29 @@
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="1"/>
 <part id="0"/>
+<part id="1"/>
 <part id="2"/>
+<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RandomizedQueue.java" partName="RandomizedQueue.java" path="E:/Courses/Algorithms/Code/CourseeraAlgorithmsCode/Workspace/Assignment2/src/RandomizedQueue.java" title="RandomizedQueue.java" tooltip="Assignment2/src/RandomizedQueue.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Assignment2/src/RandomizedQueue.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5655" selectionTopPixel="2160"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Board.java" partName="Board.java" path="E:/Courses/Algorithms/Code/CourseeraAlgorithmsCode/Workspace/Assignment4/src/Board.java" title="Board.java" tooltip="Assignment4/src/Board.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Assignment4/src/Board.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="514" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Deque.java" partName="Deque.java" path="E:/Courses/Algorithms/Code/CourseeraAlgorithmsCode/Workspace/Assignment2/src/Deque.java" title="Deque.java" tooltip="Assignment2/src/Deque.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Assignment2/src/Deque.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5995" selectionTopPixel="2385"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Solver.java" partName="Solver.java" path="E:/Courses/Algorithms/Code/CourseeraAlgorithmsCode/Workspace/Assignment4/src/Solver.java" title="Solver.java" tooltip="Assignment4/src/Solver.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Assignment4/src/Solver.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="619" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Subset.java" partName="Subset.java" path="E:/Courses/Algorithms/Code/CourseeraAlgorithmsCode/Workspace/Assignment2/src/Subset.java" title="Subset.java" tooltip="Assignment2/src/Subset.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Assignment2/src/Subset.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="515" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PuzzleChecker.java" partName="PuzzleChecker.java" path="E:/Courses/Algorithms/Code/CourseeraAlgorithmsCode/Workspace/Assignment4/src/PuzzleChecker.java" title="PuzzleChecker.java" tooltip="Assignment4/src/PuzzleChecker.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Assignment4/src/PuzzleChecker.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="284"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Point.java" partName="Point.java" path="E:/Courses/Algorithms/Code/CourseeraAlgorithmsCode/Workspace/Assignment3/src/Point.java" title="Point.java" tooltip="Assignment3/src/Point.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Assignment3/src/Point.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="132" selectionOffset="686" selectionTopPixel="45"/>
 </editor>
 </editors>
 <views>
@@ -82,9 +88,9 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Errors (8 items)"/>
 <category IMemento.internal.id="Warnings"/>
 <category IMemento.internal.id="Errors"/>
+<category IMemento.internal.id="Errors (3 items)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="179" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="594"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -355,7 +361,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.17121771" ratioLeft="232" ratioRight="1123" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.67275745" ratioLeft="405" ratioRight="197" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.87419355" ratioLeft="542" ratioRight="78" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
@@ -396,105 +402,161 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Assignment2/src/RandomizedQueue.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Assignment2/src/Deque.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Assignment2/src/Subset.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Assignment4/src/PuzzleChecker.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Assignment4/src/Board.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Assignment3/src/Fast.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Assignment3/src/Point.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Assignment4/src/Solver.java"/>
 </editors>
-<item historyLabel="RandomizedQueue.java" index="0">
-<position info="not_deleted" x="914" y="0"/>
+<item historyLabel="Board.java" index="1">
+<position info="not_deleted" x="3418" y="0"/>
 </item>
-<item historyLabel="Deque.java" index="1">
-<position info="not_deleted" x="68" y="0"/>
+<item historyLabel="Board.java" index="1">
+<position info="not_deleted" x="907" y="0"/>
 </item>
-<item historyLabel="RandomizedQueue.java" index="0">
-<position info="not_deleted" x="914" y="0"/>
-</item>
-<item historyLabel="RandomizedQueue.java" index="0">
-<position info="not_deleted" x="991" y="0"/>
-</item>
-<item historyLabel="Deque.java" index="1">
-<position info="not_deleted" x="68" y="0"/>
-</item>
-<item historyLabel="RandomizedQueue.java" index="0">
-<position info="not_deleted" x="991" y="0"/>
-</item>
-<item historyLabel="RandomizedQueue.java" index="0">
-<position info="not_deleted" x="1617" y="0"/>
-</item>
-<item historyLabel="RandomizedQueue.java" index="0">
-<position info="not_deleted" x="1611" y="0"/>
-</item>
-<item historyLabel="RandomizedQueue.java" index="0">
-<position info="not_deleted" x="1422" y="0"/>
-</item>
-<item historyLabel="RandomizedQueue.java" index="0">
-<position info="not_deleted" x="8175" y="0"/>
-</item>
-<item historyLabel="Deque.java" index="1">
-<position info="not_deleted" x="4789" y="1060"/>
-</item>
-<item historyLabel="RandomizedQueue.java" index="0">
-<position info="not_deleted" x="8175" y="0"/>
-</item>
-<item historyLabel="Deque.java" index="1">
-<position info="not_deleted" x="6259" y="236"/>
-</item>
-<item historyLabel="RandomizedQueue.java" index="0">
-<position info="not_deleted" x="6746" y="0"/>
-</item>
-<item historyLabel="Deque.java" index="1">
-<position info="not_deleted" x="6509" y="435"/>
-</item>
-<item historyLabel="RandomizedQueue.java" index="0">
-<position info="not_deleted" x="6746" y="0"/>
-</item>
-<item historyLabel="RandomizedQueue.java" index="0">
-<position info="not_deleted" x="2560" y="0"/>
-</item>
-<item historyLabel="RandomizedQueue.java" index="0">
+<item historyLabel="Board.java" index="1">
 <position/>
 </item>
-<item historyLabel="RandomizedQueue.java" index="0">
-<position info="not_deleted" x="3451" y="0"/>
+<item historyLabel="Board.java" index="1">
+<position/>
 </item>
-<item historyLabel="RandomizedQueue.java" index="0">
-<position info="not_deleted" x="4206" y="0"/>
+<item historyLabel="Board.java" index="1">
+<position/>
 </item>
-<item historyLabel="RandomizedQueue.java" index="0">
-<position info="not_deleted" x="6753" y="0"/>
+<item historyLabel="Board.java" index="1">
+<position info="not_deleted" x="6550" y="0"/>
 </item>
-<item historyLabel="Subset.java" index="2">
+<item historyLabel="Board.java" index="1">
+<position info="not_deleted" x="9145" y="0"/>
+</item>
+<item historyLabel="Board.java" index="1">
+<position/>
+</item>
+<item historyLabel="Board.java" index="1">
+<position/>
+</item>
+<item historyLabel="Board.java" index="1">
+<position/>
+</item>
+<item historyLabel="Board.java" index="1">
+<position/>
+</item>
+<item historyLabel="Board.java" index="1">
+<position info="not_deleted" x="2618" y="0"/>
+</item>
+<item historyLabel="Board.java" index="1">
+<position info="not_deleted" x="2899" y="0"/>
+</item>
+<item historyLabel="Board.java" index="1">
+<position info="not_deleted" x="3410" y="0"/>
+</item>
+<item historyLabel="Board.java" index="1">
+<position info="not_deleted" x="5685" y="0"/>
+</item>
+<item historyLabel="Board.java" index="1">
+<position info="not_deleted" x="3616" y="0"/>
+</item>
+<item historyLabel="Board.java" index="1">
+<position info="not_deleted" x="3837" y="0"/>
+</item>
+<item historyLabel="Board.java" index="1">
+<position info="not_deleted" x="3990" y="0"/>
+</item>
+<item historyLabel="Board.java" index="1">
+<position info="not_deleted" x="2912" y="0"/>
+</item>
+<item historyLabel="Fast.java" index="2">
+<position info="not_deleted" x="0" y="527"/>
+</item>
+<item historyLabel="Board.java" index="1">
+<position info="not_deleted" x="2912" y="0"/>
+</item>
+<item historyLabel="Board.java" index="1">
+<position/>
+</item>
+<item historyLabel="Board.java" index="1">
+<position info="not_deleted" x="6388" y="0"/>
+</item>
+<item historyLabel="Board.java" index="1">
+<position info="not_deleted" x="6492" y="0"/>
+</item>
+<item historyLabel="Board.java" index="1">
+<position info="not_deleted" x="2577" y="0"/>
+</item>
+<item historyLabel="Board.java" index="1">
+<position info="not_deleted" x="2580" y="0"/>
+</item>
+<item historyLabel="Board.java" index="1">
+<position info="not_deleted" x="2583" y="0"/>
+</item>
+<item historyLabel="Board.java" index="1">
+<position info="not_deleted" x="2590" y="0"/>
+</item>
+<item historyLabel="Board.java" index="1">
+<position info="not_deleted" x="2592" y="0"/>
+</item>
+<item historyLabel="Board.java" index="1">
+<position info="not_deleted" x="9137" y="0"/>
+</item>
+<item historyLabel="Point.java" index="3">
+<position info="not_deleted" x="3200" y="602"/>
+</item>
+<item historyLabel="Board.java" index="1">
+<position info="not_deleted" x="9137" y="0"/>
+</item>
+<item historyLabel="Board.java" index="1">
+<position info="not_deleted" x="6641" y="0"/>
+</item>
+<item historyLabel="Board.java" index="1">
+<position info="not_deleted" x="6803" y="0"/>
+</item>
+<item historyLabel="Board.java" index="1">
+<position info="not_deleted" x="8581" y="0"/>
+</item>
+<item historyLabel="Board.java" index="1">
+<position info="not_deleted" x="997" y="0"/>
+</item>
+<item historyLabel="PuzzleChecker.java" index="0">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Subset.java" index="2">
-<position info="not_deleted" x="527" y="0"/>
+<item historyLabel="Point.java" index="3">
+<position info="not_deleted" x="3200" y="602"/>
 </item>
-<item historyLabel="RandomizedQueue.java" index="0">
-<position info="not_deleted" x="6753" y="0"/>
+<item historyLabel="PuzzleChecker.java" index="0">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Subset.java" index="2">
-<position info="not_deleted" x="162" y="0"/>
+<item historyLabel="Solver.java" index="4">
+<position info="not_deleted" x="573" y="0"/>
 </item>
-<item historyLabel="RandomizedQueue.java" index="0">
-<position info="not_deleted" x="6753" y="0"/>
+<item historyLabel="Board.java" index="1">
+<position info="not_deleted" x="0" y="514"/>
 </item>
-<item historyLabel="Deque.java" index="1">
-<position info="not_deleted" x="5995" y="0"/>
+<item historyLabel="Solver.java" index="4">
+<position info="not_deleted" x="200" y="0"/>
 </item>
-<item historyLabel="RandomizedQueue.java" index="0">
-<position info="not_deleted" x="6753" y="0"/>
+<item historyLabel="PuzzleChecker.java" index="0">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Deque.java" index="1">
-<position info="not_deleted" x="5995" y="0"/>
+<item historyLabel="Solver.java" index="4">
+<position info="not_deleted" x="200" y="0"/>
 </item>
-<item historyLabel="Subset.java" index="2">
-<position info="not_deleted" x="515" y="0"/>
+<item historyLabel="Solver.java" index="4">
+<position info="not_deleted" x="935" y="0"/>
 </item>
-<item historyLabel="RandomizedQueue.java" index="0">
-<position info="not_deleted" x="6753" y="0"/>
+<item historyLabel="Solver.java" index="4">
+<position info="not_deleted" x="931" y="0"/>
 </item>
-<item active="true" historyLabel="RandomizedQueue.java" index="0">
-<position info="not_deleted" x="1768" y="0"/>
+<item historyLabel="Solver.java" index="4">
+<position info="not_deleted" x="920" y="0"/>
+</item>
+<item historyLabel="Solver.java" index="4">
+<position info="not_deleted" x="806" y="0"/>
+</item>
+<item historyLabel="Point.java" index="3">
+<position info="not_deleted" x="686" y="132"/>
+</item>
+<item active="true" historyLabel="Solver.java" index="4">
+<position info="not_deleted" x="806" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -514,47 +576,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Subset.java" tooltip="Assignment2/src/Subset.java">
-<persistable path="/Assignment2/src/Subset.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Point.java" tooltip="Assignment3/src/Point.java">
+<persistable path="/Assignment3/src/Point.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PuzzleChecker.java" tooltip="Assignment4/src/PuzzleChecker.java">
+<persistable path="/Assignment4/src/PuzzleChecker.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Fast.java" tooltip="Assignment3/src/Fast.java">
+<persistable path="/Assignment3/src/Fast.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Solver.java" tooltip="Assignment4/src/Solver.java">
+<persistable path="/Assignment4/src/Solver.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Board.java" tooltip="Assignment4/src/Board.java">
+<persistable path="/Assignment4/src/Board.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Brute.java" tooltip="Assignment3/src/Brute.java">
+<persistable path="/Assignment3/src/Brute.java"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="In.class" tooltip="In">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=AlgorithmsDemo/E:\/Courses\/Algorithms\/Code\/CourseeraAlgorithmsCode\/stdlib.jar&lt;(In.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PointPlotter.java" tooltip="Assignment3/src/PointPlotter.java">
+<persistable path="/Assignment3/src/PointPlotter.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="input2.txt" tooltip="Assignment3/input2.txt">
+<persistable path="/Assignment3/input2.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PercolationVisualizer.java" tooltip="Assignment1/src/PercolationVisualizer.java">
+<persistable path="/Assignment1/src/PercolationVisualizer.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PercolationStats.java" tooltip="Assignment1/src/PercolationStats.java">
+<persistable path="/Assignment1/src/PercolationStats.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Deque.java" tooltip="Assignment2/src/Deque.java">
 <persistable path="/Assignment2/src/Deque.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Subset.java" tooltip="Assignment2/src/Subset.java">
+<persistable path="/Assignment2/src/Subset.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RandomizedQueue.java" tooltip="Assignment2/src/RandomizedQueue.java">
 <persistable path="/Assignment2/src/RandomizedQueue.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Percolation.java" tooltip="Assignment1/src/Percolation.java">
 <persistable path="/Assignment1/src/Percolation.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="InteractivePercolationVisualizer.java" tooltip="Assignment1/src/InteractivePercolationVisualizer.java">
-<persistable path="/Assignment1/src/InteractivePercolationVisualizer.java"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="In.class" tooltip="In">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=AlgorithmsDemo/E:\/Courses\/Algorithms\/Code\/stdlib.jar&lt;(In.class"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PercolationVisualizer.java" tooltip="Assignment1/src/PercolationVisualizer.java">
-<persistable path="/Assignment1/src/PercolationVisualizer.java"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="StdRandom.class" tooltip="StdRandom">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=AlgorithmsDemo/E:\/Courses\/Algorithms\/Code\/stdlib.jar&lt;(StdRandom.class"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Average.class" tooltip="Average">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Assignment1/E:\/Courses\/Algorithms\/Code\/algs4.jar&lt;(Average.class"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="WeightedQuickUnionUF.class" tooltip="WeightedQuickUnionUF">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Assignment1/E:\/Courses\/Algorithms\/Code\/algs4.jar&lt;(WeightedQuickUnionUF.class"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="QuickUnion.java" tooltip="AlgorithmsDemo/src/QuickUnion.java">
-<persistable path="/AlgorithmsDemo/src/QuickUnion.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AlgorithmsDemo.java" tooltip="AlgorithmsDemo/src/AlgorithmsDemo.java">
-<persistable path="/AlgorithmsDemo/src/AlgorithmsDemo.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PercolationStats.java" tooltip="Assignment1/src/PercolationStats.java">
-<persistable path="/Assignment1/src/PercolationStats.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="QuickFind.java" tooltip="AlgorithmsDemo/src/QuickFind.java">
-<persistable path="/AlgorithmsDemo/src/QuickFind.java"/>
 </file>
 </mruList>
 </workbench>
