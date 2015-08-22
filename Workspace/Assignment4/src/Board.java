@@ -1,6 +1,6 @@
 /*----------------------------------------------------------------
  *  Author:        Ketan Nayak
- *  Written:       2/15/2015
+ *  Written:       8/21/2015
  *
  *  Purpose: Create an ADT that represents the board of a 8 puzzle
  *  Detail:  To be used by a solver that employs the A* algorithm
@@ -11,12 +11,12 @@
 import java.util.Arrays;
 
 public class Board {
-
+	
 	private int[][] board;
 	private int N = 0;
 	
 	//Constructor for the Board ADT
-	public Board(int[][]blocks){
+	public Board(int[][] blocks){
 		
 		N = blocks.length;
 		board = new int[N][N];
@@ -28,7 +28,7 @@ public class Board {
 			}
 		}	
 	}
-	
+
 	//Returns the dimension of the puzzle
  	public int dimension(){
 		return N;
@@ -49,8 +49,8 @@ public class Board {
 		
 		return hammingcount;
 	}
-	
-	//Returns the manhattan priority
+		
+	//Returns the Manhattan priority
 	public int manhattan(){
 	
 		int manhattanscore = 0;
@@ -69,7 +69,7 @@ public class Board {
 		
 		return manhattanscore;		
 	}
-	
+
 	// Returns if the board is the same as the goal board;
 	public boolean isGoal(){
 		return this.hamming() == 0;
@@ -90,7 +90,7 @@ public class Board {
 	    boolean swapped = false;
 	    //Loop to find a set of non-blank items in the board
 	    for (int i = 0; i < N; i++){
-	        for (int j = 0; j < N; j++){
+	        for (int j = 0; j < N-1; j++){
 	          if (twinboard[i][j] != 0 & twinboard[i][j+1] != 0)
 	          {
 	            //Exchange non zero adjacent entries on the same row
@@ -232,9 +232,14 @@ public class Board {
 	public static void main(String args[]){
 		
 		//Create 4 points
-        int[][] startgrid =  {{8, 1, 3}, {4, 0, 2}, {7, 6, 5}};
-        int[][] samegrid = {{8, 1, 3}, {4, 0, 2}, {7, 6, 5}};
-        
+        //int[][] startgrid =  {{8, 0, 3}, {4, 1, 2}, {7, 6, 5}};
+        //int[][] samegrid = {{8, 0, 3}, {4, 1, 2}, {7, 6, 5}};
+		int[][] startgrid =  {{4, 6, 5, 11}, {1, 2, 3, 7}, {0, 10, 13, 12}, {9, 8, 15, 14}};
+        int[][] samegrid = {{4, 6, 5, 11}, {1, 2, 3, 7}, {0, 10, 13, 12}, {9, 8, 15, 14}};
+		
+		
+		
+		
         Board start = new Board(startgrid);
         Board same = new Board(samegrid);
         
@@ -294,6 +299,6 @@ public class Board {
 	
 		
 	}
-	
-	
+		
+
 }
